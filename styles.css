@@ -1,0 +1,122 @@
+/* Global body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header Styling with Semi-Transparent Background for Navigation */
+header {
+    background-image: url('Images/header-background.jpg'); /* Correct image path */
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: center; /* Center the image */
+    color: white; /* Ensure the text color is readable */
+    padding: 40px 20px;
+    text-align: center;
+    height: 250px; /* Adjust height as needed */
+    position: relative;
+}
+
+/* Optional: Adding transparency to the text background for readability */
+header h1 {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Navigation styling with semi-transparent background */
+nav {
+    background-color: rgba(0, 131, 143, 0.8); /* Semi-transparent teal background */
+    padding: 10px 0;
+    margin-bottom: 20px; /* Add space below the navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for nav links */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: lightgreen; /* Change to light green on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #00838f;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 0.8em;
+    width: 100%;
+    bottom: 0;
+    position: relative; /* Keeps the footer at the bottom without being fixed */
+    margin-top: 40px;
+}
+
+/* Optional: Add margin to the bottom of the main content */
+main {
+    margin-bottom: 50px;
+    padding-top: 30px; /* Add padding to avoid overlap with the navigation */
+}
+
+/* Section content styling */
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+/* Image styling for placeholders */
+.main-image,
+.profile-pic,
+.prototype-image,
+.marketing-image,
+.user-guide-image,
+.download-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure all headings follow the same style */
+h2 {
+    margin-top: 40px; /* Ensure space between nav and headings */
+    color: #006064; /* Teal text */
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background-color: #00838f; /* Matching button background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #006064; /* Darker teal on hover */
+}
